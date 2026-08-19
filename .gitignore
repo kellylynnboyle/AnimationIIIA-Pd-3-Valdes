@@ -1,6 +1,77 @@
-# gitignore template for LangChain products, e.g., LangGraph, LangSmith
-# website: https://www.langchain.com/
-# website: https://www.langchain.com/langgraph
+# --- Operating system junk ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
-# LangGraph
-.langgraph_api/
+# --- Autosaves, backups, and temp files ---
+*.bak
+*.tmp
+*.temp
+*.autosave
+*~
+*.swp
+
+# --- Adobe Animate / Flash ---
+*.fla.bak
+RECOVER_*.fla
+*.swf.cache
+
+# --- Adobe After Effects ---
+Adobe After Effects Auto-Save/
+*.aep.bak
+*.aepx.bak
+*Logs/
+*.log
+
+# --- Adobe Premiere Pro ---
+Adobe Premiere Pro Auto-Save/
+Adobe Premiere Pro Audio Previews/
+Adobe Premiere Pro Video Previews/
+*.prproj.bak
+*.cfa
+*.pek
+*.ims
+
+# --- Adobe Photoshop / Illustrator temp ---
+*.psb.tmp
+*.ai.tmp
+
+# --- Blender ---
+*.blend1
+*.blend2
+*.blend@
+/blender_autosave/
+
+# --- Toon Boom Harmony ---
+*.xstage.bak
+frames/.thumbnails/
+
+# --- Autodesk Maya ---
+*.swatches
+incrementalSave/
+mayaSwatches/
+*.mel.bak
+
+# --- Render output & caches (re-renderable, too big for git) ---
+renders/
+render_output/
+cache/
+caches/
+*.tx
+*.exr.tmp
+
+# --- Media preview/proxy files ---
+proxies/
+Media Cache Files/
+Media Cache/
+
+# --- Misc ---
+node_modules/
+.venv/
+__pycache__/

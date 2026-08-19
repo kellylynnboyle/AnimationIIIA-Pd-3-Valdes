@@ -10,7 +10,7 @@ Mirror of the [Schoology course materials page](https://nmusd.schoology.com/cour
 |---|---|---|---|
 | Animation Student Survey | Assignment | [`assignments/week-01-intro-to-animation/animation-student-survey/`](../assignments/week-01-intro-to-animation/animation-student-survey/) | ✅ folder ready |
 | Make a Flipbook! | Assignment | [`assignments/week-01-intro-to-animation/make-a-flipbook/`](../assignments/week-01-intro-to-animation/make-a-flipbook/) | ✅ folder ready |
-| Animation and Entertainment Design Career Map | Web link | [`week-01/`](week-01/) — paste URL into `links.md` | ⬜ need URL |
+| Animation and Entertainment Design Career Map | Web link | [`week-01/links.md`](week-01/links.md) | ✅ public match found — verify |
 | Reflection and Direction in Animation and Entertainment Design! | Assignment | [`assignments/week-01-intro-to-animation/reflection-and-direction/`](../assignments/week-01-intro-to-animation/reflection-and-direction/) | ✅ folder ready |
 
 ### 📁 Course Materials
@@ -27,21 +27,21 @@ Mirror of the [Schoology course materials page](https://nmusd.schoology.com/cour
 | Item | Type | Lives in this repo | Status |
 |---|---|---|---|
 | Harmony - Frequently Used ShortCuts.pdf (110 KB) | PDF | [`toon-boom-harmony/`](toon-boom-harmony/) | ⬜ need file |
-| Download Toon-Boom at Home! | Web link | [`toon-boom-harmony/links.md`](toon-boom-harmony/links.md) | ⬜ need URL |
-| Harmony Tools Toolbar Key 2025 | Web link | [`toon-boom-harmony/links.md`](toon-boom-harmony/links.md) | ⬜ need URL |
+| Download Toon-Boom at Home! | Web link | [`toon-boom-harmony/links.md`](toon-boom-harmony/links.md) | ✅ public match found — verify |
+| Harmony Tools Toolbar Key 2025 | Web link | [`toon-boom-harmony/links.md`](toon-boom-harmony/links.md) | ✅ public match found — verify |
 
 ### 📁 Storyboard Pro
 
 | Item | Type | Lives in this repo | Status |
 |---|---|---|---|
-| How to Import Sound Clips | Web link | [`storyboard-pro/links.md`](storyboard-pro/links.md) | ⬜ need URL |
-| How to Play Audio Tracks on Storyboard | Web link | [`storyboard-pro/links.md`](storyboard-pro/links.md) | ⬜ need URL |
+| How to Import Sound Clips | Web link | [`storyboard-pro/links.md`](storyboard-pro/links.md) | ✅ public match found — verify |
+| How to Play Audio Tracks on Storyboard | Web link | [`storyboard-pro/links.md`](storyboard-pro/links.md) | ✅ public match found — verify |
 
 ### 📁 Adobe Photoshop
 
 | Item | Type | Lives in this repo | Status |
 |---|---|---|---|
-| Adobe Photoshop Shortcuts 2025 | Web link | [`adobe-photoshop/links.md`](adobe-photoshop/links.md) | ⬜ need URL |
+| Adobe Photoshop Shortcuts 2025 | Web link | [`adobe-photoshop/links.md`](adobe-photoshop/links.md) | ✅ public match found — verify |
 
 ## How to fill in the ⬜ items (5 minutes)
 

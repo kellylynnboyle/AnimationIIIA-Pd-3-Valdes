@@ -1,0 +1,49 @@
+# Normalize line endings for text files across Mac/Windows/Linux
+* text=auto
+
+# --- Treat media and project files as binary (no diffing, no line-ending changes) ---
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.tif binary
+*.tiff binary
+*.bmp binary
+*.webp binary
+*.exr binary
+*.hdr binary
+
+# Audio
+*.mp3 binary
+*.wav binary
+*.aif binary
+*.aiff binary
+*.ogg binary
+
+# Video
+*.mp4 binary
+*.mov binary
+*.avi binary
+*.webm binary
+*.mkv binary
+
+# Animation / design project files
+*.fla binary
+*.aep binary
+*.prproj binary
+*.psd binary
+*.psb binary
+*.ai binary
+*.blend binary
+*.xstage binary
+*.tvpp binary
+*.clip binary
+*.kra binary
+*.ora binary
+*.swf binary
+*.ma binary
+*.mb binary
+*.fbx binary
+*.obj binary
+*.pdf binary

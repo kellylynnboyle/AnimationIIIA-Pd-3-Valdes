@@ -19,10 +19,11 @@ Shortcut sheets and how-to links for each tool live in [`resources/`](resources/
 ## How this repo is organized
 
 ```
-├── assignments/     # Work for each assignment, organized by week/unit
+├── assignments/         # Work for each assignment, organized by week/unit
 │   └── week-01-intro-to-animation/
-├── resources/       # Tool guides, shortcuts, and course links
-└── docs/            # GitHub how-tos (cloning, committing, submitting)
+├── course-materials/    # Mirror of the Schoology materials page (syllabus, PDFs, links)
+├── resources/           # Tool guides, shortcuts, and course links
+└── docs/                # GitHub how-tos (cloning, committing, submitting)
 ```
 
 ## Getting started

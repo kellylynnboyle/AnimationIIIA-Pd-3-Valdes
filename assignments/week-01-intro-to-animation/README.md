@@ -1,11 +1,18 @@
-# Week 1: Intro to Animation
+# Week 1: Intro to Animation II
 
-Assignments this week (from the course page):
+Assignments this week (from the [Schoology course page](https://nmusd.schoology.com/course/8478718761/materials)):
 
-| Assignment | Folder | Notes |
+| Assignment | Folder | Due |
 |---|---|---|
-| Animation Student Survey | [`animation-student-survey/`](animation-student-survey/) | Submitted via the course site — keep a copy of answers here if useful |
-| Make a Flipbook! | [`make-a-flipbook/`](make-a-flipbook/) | Save scans/photos or a video of the finished flipbook |
-| Reflection and Direction in Animation and Entertainment Design | [`reflection-and-direction/`](reflection-and-direction/) | Pairs with the Animation & Entertainment Design Career Map link on the course page |
+| Animation Student Survey | [`animation-student-survey/`](animation-student-survey/) | — |
+| Make a Flipbook! | [`make-a-flipbook/`](make-a-flipbook/) | **Wed Aug 19, 11:59 pm** |
+| Reflection and Direction in Animation and Entertainment Design! | [`reflection-and-direction/`](reflection-and-direction/) | **Wed Aug 19, 11:59 pm** |
 
-Also due this week (course materials, no files needed here): Submit Syllabus Signed in Class · Supply Check
+Related link on Schoology: *Animation and Entertainment Design Career Map* (pairs with the reflection).
+
+## Course materials also due this week (no files needed here)
+
+| Item | Due |
+|---|---|
+| Submit Syllabus Signed in Class | Thu Aug 20, 10:20 am |
+| Supply Check | Mon Aug 24, 11:15 am |

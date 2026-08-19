@@ -1,6 +1,6 @@
 # Animation III A — Pd. 3 (Valdes) · 1959
 
-Class repository for **Animation III A, Period 3** with Mr./Ms. Valdes at **Corona Del Mar High School**.
+Class repository for **Animation III A, Period 3** with Valdes at **Corona Del Mar High School** · Fall grading period: Aug 17 – Dec 18, 2026.
 
 📚 **Official course page:** [Schoology — Course Materials](https://nmusd.schoology.com/course/8478718761/materials) (assignments are submitted there; this repo is for backing up and organizing the work itself)
 
@@ -14,7 +14,7 @@ This repo keeps animation work backed up, versioned, and organized by course uni
 | [Storyboard Pro](https://www.toonboom.com/products/storyboard-pro) | Storyboarding & animatics |
 | [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) | Digital art & assets |
 
-Shortcut sheets and how-to links for each tool live in [`resources/`](resources/).
+Shortcut sheets and how-to links for each tool live in [`resources/`](resources/). Want to work from home? See [docs/install-tools-at-home.md](docs/install-tools-at-home.md) for installing the class tools (or free parallel alternatives) on your own computer.
 
 ## How this repo is organized
 

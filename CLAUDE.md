@@ -1,6 +1,6 @@
 # Animation III A — Repo Guide
 
-This is a **class repository**, not a software project. It backs up and organizes animation coursework for Animation III A, Period 3 (Valdes) at Corona Del Mar High School. Most files here are Markdown notes plus exported animation media.
+This repository backs up and organizes animation coursework for Animation III A, Period 3 (Valdes) at Corona Del Mar High School. Most of it is Markdown notes plus exported animation media — with one exception: `site/` is a real Next.js app, covered below.
 
 Assignments are officially submitted on **Schoology**; this repo is the backup and portfolio. Never describe pushing to GitHub as "submitting the assignment."
 
@@ -12,6 +12,7 @@ Assignments are officially submitted on **Schoology**; this repo is the backup a
 │       └── assignment-name/     # exports + project file + notes.md
 ├── course-materials/    # Mirror of the Schoology materials page (syllabus, links)
 ├── resources/           # Tool guides and shortcut sheets (Harmony, Storyboard Pro, Photoshop)
+├── site/                # Next.js portfolio site presenting the finished work
 └── docs/                # GitHub how-tos for students
 ```
 
@@ -38,6 +39,22 @@ These are hard constraints, not preferences:
 - **Never commit** render caches, autosave folders, or image sequences of hundreds of frames.
 
 `.gitignore` already blocks app caches and autosaves for Harmony, Photoshop, Premiere, After Effects, Blender, and Maya. `.gitattributes` marks media and project files as binary so Git doesn't corrupt them with line-ending conversion. When adding support for a new tool, extend both files rather than working around them.
+
+The same limits apply to media committed for the portfolio site under `site/public/work/` — it is served straight from the repo, so an oversized export breaks the push, not just the page.
+
+## Portfolio site (`site/`)
+
+The one part of this repo that is real code. It presents the coursework as a portfolio: a gallery home page, a page per piece with video playback and process notes, and an about page.
+
+**Stack:** Next.js 16 (App Router) · React 19 · Tailwind CSS v4 · TypeScript 5 · ESLint 9. Exact versions are pinned in `site/package.json`; read it rather than assuming.
+
+**Adding work is data, not code.** A piece is one entry in `site/src/data/projects.ts` plus a file in `site/public/work/`. Entries with no `media` render as placeholder tiles, so upcoming pieces can be lined up before they're finished. Adding or updating work should never require editing a page or component.
+
+**Don't write these APIs from memory.** Next.js 16, React 19, and Tailwind v4 all postdate most training data and changed conventions from the versions you likely recall. Check the installed packages — Next.js ships its own guides under `site/node_modules/next/dist/docs/` — before writing code, and heed deprecation notices.
+
+**`site/` documents its own rules.** `site/CLAUDE.md` imports `site/AGENTS.md`, which carries a block that `next dev` generates and re-adds automatically. Those conventions take precedence inside `site/`; leave the generated block in place rather than stripping it from a diff.
+
+**Verify before committing** changes under `site/`: run `npm run lint` and `npm run build` there. `site/.gitignore` already excludes `node_modules/` and `.next/` — never commit either.
 
 ## Web search tools
 

@@ -39,6 +39,15 @@ These are hard constraints, not preferences:
 
 `.gitignore` already blocks app caches and autosaves for Harmony, Photoshop, Premiere, After Effects, Blender, and Maya. `.gitattributes` marks media and project files as binary so Git doesn't corrupt them with line-ending conversion. When adding support for a new tool, extend both files rather than working around them.
 
+## Web search tools
+
+`.mcp.json` configures two web search servers for AI sessions in this repo. Route queries to the one that fits so lookups stay fast and free-tier limits aren't wasted:
+
+- **Parallel** (`web_search`, `web_fetch`) — default for everyday lookups: current facts, news, comparisons, troubleshooting. Free without an API key; answer from search excerpts when they suffice instead of fetching every result.
+- **Exa** (`web_search_exa`, `web_fetch_exa`, `web_search_advanced_exa`, `agent_run`) — use for semantic queries ("a tutorial that explains X like Y"), code/documentation lookups, people or company searches, and filtered searches (domain, date, category) via the advanced tool. `agent_run` is usage-billed and needs the user signed in to Exa — don't call it for anything a plain search answers.
+
+Neither server has an API key in this repo, and none should ever be committed here.
+
 ## Audience
 
 The people using this repo are high school animation students, many of them new to Git and working on **Windows**. Documentation should be written for them: plain language, no assumed command-line background, and no setup that depends on symlinks or Unix-only tooling.

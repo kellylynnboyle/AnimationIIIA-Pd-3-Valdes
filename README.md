@@ -29,9 +29,13 @@ Shortcut sheets and how-to links for each tool live in [`resources/`](resources/
 
 ## Portfolio site
 
-[`site/`](site/) is a website that turns this work into a portfolio — a gallery of pieces, each with its own page for the video and your process notes. It's free to put online with Vercel, which makes it something you can hand to anyone: a college application, an internship, or family.
+[`site/`](site/) is a website that turns this work into a portfolio — a gallery of pieces, each with its own page for the video and your process notes. It's free to host, which makes it something you can hand to anyone: a college application, an internship, or family.
 
-To add a piece, drop the export into `site/public/work/` and add an entry to `site/src/data/projects.ts`. Full instructions, including how to deploy it, are in [site/README.md](site/README.md).
+It publishes itself to GitHub Pages on every push to `main`:
+
+**https://kellylynnboyle.github.io/AnimationIIIA-Pd-3-Valdes/**
+
+To add a piece, drop the export into `site/public/work/` and add an entry to `site/src/data/projects.ts`. Full instructions, including hosting on Vercel instead, are in [site/README.md](site/README.md).
 
 ## Getting started
 

@@ -61,13 +61,26 @@ A piece with no `media` yet still appears in the gallery as a placeholder tile, 
 
 ## Put it online (free)
 
-1. Push this repo to GitHub (it already is).
-2. Sign in at [vercel.com](https://vercel.com) with your GitHub account.
-3. **Add New → Project**, and pick this repository.
-4. **Important:** set **Root Directory** to `site`, since the app lives in a subfolder rather than at the top of the repo.
-5. Click **Deploy**.
+This repo is already set up to publish itself to **GitHub Pages**. There's nothing to install — the site rebuilds and redeploys on every push to `main`.
 
-You'll get a URL like `your-name.vercel.app`. Every push to `main` after that redeploys the site automatically.
+**One-time switch-on:** in the repository on GitHub, go to **Settings → Pages**, and under **Source** choose **GitHub Actions**. That's it. The next push publishes to:
+
+```
+https://kellylynnboyle.github.io/AnimationIIIA-Pd-3-Valdes/
+```
+
+You can also run the deploy by hand from the **Actions** tab → *Deploy portfolio site* → **Run workflow**.
+
+### Or use Vercel instead
+
+Vercel gives you a shorter URL and faster builds, if you'd rather host there:
+
+1. Sign in at [vercel.com](https://vercel.com) with your GitHub account.
+2. **Add New → Project**, and pick this repository.
+3. **Important:** set **Root Directory** to `site`, since the app lives in a subfolder rather than at the top of the repo.
+4. Click **Deploy**.
+
+The two can coexist — nothing about the Vercel setup conflicts with the Pages workflow.
 
 ## Checking your work before you push
 

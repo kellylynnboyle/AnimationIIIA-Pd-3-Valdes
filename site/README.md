@@ -61,15 +61,19 @@ A piece with no `media` yet still appears in the gallery as a placeholder tile, 
 
 ## Put it online (free)
 
-This repo is already set up to publish itself to **GitHub Pages**. There's nothing to install — the site rebuilds and redeploys on every push to `main`.
+This repo publishes itself to **GitHub Pages**. On every push to `main`, a workflow builds the site and pushes the result to a branch called `gh-pages`, which GitHub serves as a website.
 
-**One-time switch-on:** in the repository on GitHub, go to **Settings → Pages**, and under **Source** choose **GitHub Actions**. That's it. The next push publishes to:
+**One-time switch-on:** in the repository on GitHub, go to **Settings → Pages**. Under **Build and deployment**, set **Source** to **Deploy from a branch**, then choose branch **`gh-pages`** and folder **`/ (root)`**, and click **Save**. The `gh-pages` branch has to exist first, so let the workflow run once before setting this.
+
+Once it's on, the site lives at:
 
 ```
 https://kellylynnboyle.github.io/AnimationIIIA-Pd-3-Valdes/
 ```
 
-You can also run the deploy by hand from the **Actions** tab → *Deploy portfolio site* → **Run workflow**.
+You can run the deploy by hand any time from the **Actions** tab → *Deploy portfolio site* → **Run workflow**.
+
+> Don't edit the `gh-pages` branch by hand — it's generated, and every deploy overwrites it completely. All real work happens on `main`.
 
 ### Or use Vercel instead
 

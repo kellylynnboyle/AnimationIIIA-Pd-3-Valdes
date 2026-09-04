@@ -1,0 +1,45 @@
+name: Checks
+
+# Runs on pull requests, so a lint or build failure shows up before a change
+# lands. The deploy workflow only builds after merge, which is too late.
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "site/**"
+      - ".github/workflows/ci.yml"
+
+# These checks only read the code — no deploy, so no Pages permissions.
+permissions:
+  contents: read
+
+# A newer push to the same pull request makes an in-flight run irrelevant.
+concurrency:
+  group: checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Lint and build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: site
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - run: npm ci
+
+      - run: npm run lint
+
+      # Built the same way the deploy builds it, so a basePath or static-export
+      # problem surfaces on the pull request rather than after merge.
+      - run: npm run build
+        env:
+          GITHUB_PAGES: "true"

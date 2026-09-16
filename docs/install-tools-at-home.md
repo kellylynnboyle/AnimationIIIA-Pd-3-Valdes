@@ -12,6 +12,8 @@ Two parallel toolset setups so you can work anywhere: the **official class tools
 
 > **Tip:** Install the **same version** of Harmony as the school lab if you can — scene files (`.xstage`) saved in a newer version may not open in an older one at school.
 
+> **Only download from the links above or [toonboom.com](https://www.toonboom.com) and [adobe.com](https://www.adobe.com).** Searching "Toon Boom Harmony download" turns up sites offering free "cracked" installers — these aren't legitimate, and running one can put malware on your computer. If a search result isn't from the official site, don't click it.
+
 ## Free parallel toolset
 
 No license at home? These free tools cover the same kind of work:
